@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#logo
+{
+    /* border: 1px solid red; */
+    width: 294px;
+    height: 84px;
+    margin: -34px -90px;
+}
+nav {
+    background-color: #24aeea;
+    height: 50px;
+    width: 1326px;
+    /* margin: 20px 20px; */
+    padding: 20px 20px;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 22px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding: 14px 50px;
+    cursor: pointer;
+    /* position: absolute; */
+}
+
+/* Hoverable Drop Down Menus */
+.std-btn {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    /* pad: 14px ; */
+    cursor: pointer;
+    margin: 18px 35px;
+    margin-left: 70px;
+}
+
+.student {
+    position: relative;
+    display: inline-block;
+}
+
+.std-drop {
+    /* border: 1px solid red; */
+    border-top: 1px solid white;
+    display: none;
+    /* z-index: 1; */
+    width: 112%;
+    background-color: #24aeea;
+    transition: 0.5s;
+    position: absolute;
+}
+.std-drop a
+{
+    text-align: center;
+    text-decoration: none;
+
+}
+.std-drop a:hover {
+    background-color: black;
+    /* color: black; */
+    display: flex;
+    transition: 0.5s;
+}
+
+.student:hover .std-drop {
+    /* position: relative; */
+    display: block;
+}
+
+/* New Hoverable Menu  */
+
+.about-btn {
+    border: none;
+    display: inline-block;
+    margin: 20px 20px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 18px 35px;
+}
+
+.about {
+    position: relative;
+    display: inline-block;
+}
+
+.about-drop {
+    width: 143%;
+    display: none;
+    position: absolute;
+    background-color: #24aeea;
+    /* border: 2px solid red; */
+    border-top: 1px solid white;
+    transition: 0.5;
+}
+.about-drop a
+{
+    text-align: center;
+    text-decoration: none;
+}
+
+.about-drop a:hover {
+    background-color: black;
+    display: flex;
+    transition: 0.5s;
+}
+
+
+.about:hover .about-drop {
+    display: block;
+}
+
+/* New Hoverable Menu  */
+
+
+
+
+
+
+
+.event-btn {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    margin: 18px 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.event {
+    position: relative;
+    display: block;
+}
+
+.event-drop {
+    /* border: 1px solid red; */
+    background-color: #24aeea;
+    border-top: 1px solid white;
+    display: none;
+    position: absolute;
+    transition: 0.5s;
+    width: 150%;
+}
+.event-drop a
+{
+    text-decoration: none;
+    text-align: center;
+}
+
+.event-drop a:hover {
+
+    display: flex;
+    transition: 0.5s;
+    background-color: black;
+}
+
+.event:hover .event-drop {
+    display: block;
+}
+
+/* News Menu */
+#news-btn {
+    font-size: 1.25rem;
+    background: transparent;
+    border: none;
+    color: white;
+    margin: 13px 35px;
+    cursor: pointer;
+}
+
+.news {
+    position: relative;
+    display: block;
+}
+
+.news-drop {
+    /* border: 1px solid red; */
+    background-color: #24aeea;
+    border-top: 1px solid white;
+    width: 170%;
+    display: none;
+    position: absolute;
+}
+
+.news-drop a {
+text-align: center;
+text-decoration: none;}
+
+.news-drop a:hover {
+    background-color: black;
+    display: flex;
+    transition: 0.5s;
+}
+
+
+.news:hover .news-drop {
+    display: block;
+    /* position: relative; */
+}
+
+.right {
+    float: right;
+    /* border: 2px solid red; */
+    margin: -60px 60px;
+    /* display: inline-block; */
+}
+
+#search {
+    height: 55px;
+    width: 110px;
+    border-radius: 40px;
+    padding: 10px 10px;
+    margin: 0px -120px;
+    display: inline-block;
+    transition: 1s;
+    border: none;
+    opacity:0 ;
+}
+
+#search:hover {
+    width: 300px;
+    transition: 1s;
+    opacity: 1;
+}
+
+#search-btn {
+    border-radius: 40px;
+    border: 1px solid black;
+    /* background: transparent; */
+    background-color:white;
+    font-size: 1rem;
+    padding: 13px 20px;
+    /* margin: -13px -25px; */
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
